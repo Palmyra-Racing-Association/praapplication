@@ -33,8 +33,7 @@ const onSubmit = ({formData}) => {
   console.log("Data submitted: ",  formData);
   document.getElementById("submitBtn").disabled = true;
   document.getElementById("submitted").style.visibility= "visible" ;
-  alert(JSON.stringify(formData));
-  
+    
   axios.post(apiUrl+'/members/apply/', formData)
   .then(function (response) {
     console.log(response);
