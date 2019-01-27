@@ -7,6 +7,8 @@ module.exports =
       "If you'd prefer to use a paper form, you can access it at the bottom of the page, scan it, and email it to hogbacksecretary@gmail.com.",
     "type": "object",
     "required": [
+      "firstName", "lastName", "address", "city", "state", "zip", "phone", 
+      "email", "birthday", "signature",
     ],
     "properties": {
       "firstName": {
@@ -32,6 +34,10 @@ module.exports =
       "zip": {
         "type": "string",
         "title": "Zip"
+      },
+      "phone": {
+        "type": "string",
+        "title": "Preferred Phone Number"
       },
       "email": {
         "type": "string",

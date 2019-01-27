@@ -4,12 +4,13 @@ import './App.css';
 import Form from "react-jsonschema-form";
 import schema from './schemas/FormSchema';
 import axios from 'axios';
+import Popup from 'reactjs-popup';
 import Env from './Env'
 
 let minLegalAge = new Date();
 minLegalAge.setFullYear(minLegalAge.getFullYear() - 18);
 let realisticMaxAge = new Date();
-realisticMaxAge.setFullYear(realisticMaxAge.getFullYear()-62);
+realisticMaxAge.setFullYear(realisticMaxAge.getFullYear()-72);
 const uischema = {
   "firstName": {
     "ui:autofocus": true,
