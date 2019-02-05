@@ -29,7 +29,8 @@ module.exports =
       },
       "state": {
         "type": "string",
-        "title": "State"
+        "title": "State",
+        "default": "NY"
       },
       "zip": {
         "type": "string",

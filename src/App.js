@@ -44,6 +44,7 @@ const onSubmit = ({formData}) => {
   });
   
 }
+
 export default class App extends React.Component {
  
   async componentWillMount() {
@@ -60,6 +61,7 @@ export default class App extends React.Component {
         Please <a target="new" href="http://www.palmyramx.com/wordpress/wp-content/uploads/2017/02/PRA-Rules-And-Sound.pdf">click here to read the rules </a> 
         before submitting your application if you have any questions on the rules.  Note that all rules are subject to change.
         <p/>
+        If you prefer to use a paper form, you can find that <a href="http://www.palmyramx.com/wordpress/wp-content/uploads/2012/01/PRA-Membership-Application-2013-V1.pdf">here</a>.
       </div>
       <div>
         <button id="submitBtn" type="submit" className="btn btn-info">Submit</button>
