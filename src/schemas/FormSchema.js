@@ -13,11 +13,15 @@ module.exports =
     "properties": {
       "firstName": {
         "type": "string",
-        "title": "First name"
+        "title": "First name",
+        "minLength": 2,
+        "maxLength": 14
       },
       "lastName": {
         "type": "string",
-        "title": "Last name"
+        "title": "Last name",
+        "minLength": 2,
+        "maxLength": 14
       },
       "address": {
         "type": "string",
@@ -30,15 +34,20 @@ module.exports =
       "state": {
         "type": "string",
         "title": "State",
-        "default": "NY"
+        "default": "NY",
+        "minLength": 2,
+        "maxLength": 2
       },
       "zip": {
         "type": "string",
-        "title": "Zip"
+        "title": "Zip",
+        "maxLength": 5
       },
       "phone": {
         "type": "string",
-        "title": "Preferred Phone Number"
+        "title": "Preferred Phone Number (including area code)",
+        "minLength": 10,
+        "maxLength": 12
       },
       "email": {
         "type": "string",

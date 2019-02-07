@@ -30,6 +30,10 @@
   color: #61dafb;
 }
 
+.formdiv {
+  padding: 1rem 2rem 2rem 1rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -37,4 +41,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+.form-control-inline {
+  min-width: 0;
+  width: auto;
+  display: inline;
 }
