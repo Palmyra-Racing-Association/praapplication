@@ -69,7 +69,9 @@ module.exports =
       },
       "familyMembers": {
         "type": "string",
-        "title": "Family members (list all names and ages)"
+        "title": 
+          `Family members (list all names and ages).  Please note: that children aged 18 and up must be in the same household, and either a student or active miltary 
+           to be on a family membership.  Proof of insurance is required for all family members your application is accepted.`
       },
       "signature": {
         "type": "string",

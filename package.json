@@ -18,7 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "aws --profile claudia s3 sync build/ s3://apply.palmyramx.com && aws --profile claudia cloudfront create-invalidation --distribution-id E2EOR9J1NB0PWJ --paths '/*'"
+    "deploy": "aws --profile claudia s3 sync build/ s3://apply.palmyramx.com && aws --profile claudia cloudfront create-invalidation --distribution-id E2EOR9J1NB0PWJ --paths '/*'",
+    "pushItRealGood": "build; deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
