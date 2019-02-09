@@ -58,16 +58,6 @@ function validate(formData, errors) {
       }
     }
   }
-
-  /*
-  if (formData.firstName && formData.firstName.indexOf('/') > -1) {
-    errors.firstName.addError('Are you trying to add a family member?  One name goes here, and family members can go in the family members section.');
-  }
-
-  if (formData.lastName && formData.lastName.indexOf('/') > -1) {
-    errors.lastName.addError('Are you trying to add a family member?  One name goes here, and family members can go in the family members section.');
-  }
-  */
   return errors;
 }
 

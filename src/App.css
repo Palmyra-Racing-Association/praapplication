@@ -47,3 +47,17 @@
   width: auto;
   display: inline;
 }
+.panel-danger {
+  display: none;
+}
+.control-label {
+  width: 75%;
+  background-color: rgb(212, 204, 204);
+  font-weight: bold;
+}
+.form-control {
+  width: 75%;
+}
+.field-description {
+  width: 75%;
+}
