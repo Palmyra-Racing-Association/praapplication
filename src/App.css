@@ -51,13 +51,13 @@
   display: none;
 }
 .control-label {
-  width: 90%;
+  width: 100%;
   background-color: rgb(212, 204, 204);
   font-weight: bold;
 }
 .form-control {
-  width: 90%;
+  width: 100%;
 }
 .field-description {
-  width: 90%;
+  width: 100%;
 }
